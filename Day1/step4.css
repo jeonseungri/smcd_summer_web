@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+  /* font-family: 'Bagel Fat One', cursive; */ 'Moirai One',
+    cursive;
+  background-color: rgba(255, 0, 0, 0.1);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.main {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.section {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.section:nth-of-type(even) {
+  background-color: rgba(0, 0, 225, 0.1);
+}
+
+.container {
+  margin-inline: auto;
+  /* padding-block: 3.5rem; */
+  padding: 56px 24px;
+  background-color: rgba(255, 255, 225, 0.5);
+
+  max-width: 65ch;
+}
+
+h2 {
+  font-family: 'Bagel Fat One', cursive;
+}
+@media (width <= 600px) {
+  body {
+    font-size: 14px;
+  }
+}
