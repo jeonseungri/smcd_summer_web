@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family:
-  /* font-family: 'Bagel Fat One', cursive; */ 'Moirai One',
-    cursive;
+  /* font-family:'Bagel Fat One', cursive; */
+  font-family: 'Grandiflora One', serif;
+  /* font-family: 'Moirai One', cursive; */
   background-color: rgba(255, 0, 0, 0.1);
   font-size: 18px;
   line-height: 1.5;
